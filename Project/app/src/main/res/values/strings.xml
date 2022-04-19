@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OMDB Project </string>
+    <string name="label_search_hint">Search by movie title</string>
+    <string name="btn_search">Search</string>
+    <string name="unable_to_fetchdata">Fail to fetch data from OMDB</string>
+    <string name="search_movie_successfully">Search movies successfully</string>
+
+
+    <string name="get_movie_details_successfully">Load movie details successfully</string>
+    <string name="open_details_transition_name">transition_open_details</string>
+    <string name="label_title">Title</string>
+    <string name="label_released">Released</string>
+    <string name="label_runtime">Runtime</string>
+    <string name="label_director">Director</string>
+    <string name="label_genre">Genre</string>
+    <string name="label_writer_s">Writer(s)</string>
+    <string name="label_actors">Actors</string>
+    <string name="label_plot">Plot</string>
+    <string name="label_search_by_year_hint">release year</string>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:transitionName="@string/open_details_transition_name"
+    tools:context=".fragments.MovieDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/movie_details_poster_height"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="@dimen/movie_details_poster_gap"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_title" />
+
+            <TextView
+                android:id="@+id/movie_title"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_released" />
+
+            <TextView
+                android:id="@+id/movie_released"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_runtime" />
+
+            <TextView
+                android:id="@+id/movie_runtime"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_director" />
+
+            <TextView
+                android:id="@+id/movie_director"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_genre" />
+
+            <TextView
+                android:id="@+id/movie_genre"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_writer_s" />
+
+            <TextView
+                android:id="@+id/movie_writer"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_actors" />
+
+            <TextView
+                android:id="@+id/movie_actors"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DetailsLabelText"
+                android:text="@string/label_plot" />
+
+            <TextView
+                android:id="@+id/movie_plot"
+                style="@style/DetailsLabelValueText" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
